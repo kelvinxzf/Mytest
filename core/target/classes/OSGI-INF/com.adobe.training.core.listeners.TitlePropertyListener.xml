@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.adobe.training.core.listeners.TitlePropertyListener">
+        <implementation class="com.adobe.training.core.listeners.TitlePropertyListener"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.training.core.listeners.TitlePropertyListener"/>
+        <reference name="repository" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepository" unbind="unbindRepository"/>
+    </scr:component>
+</components>

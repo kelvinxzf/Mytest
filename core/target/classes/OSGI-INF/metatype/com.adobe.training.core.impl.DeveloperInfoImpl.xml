@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.training.core.impl.DeveloperInfoImpl">
+    <OCD id="com.adobe.training.core.impl.DeveloperInfoImpl" name="%com.adobe.training.core.impl.DeveloperInfoImpl.name" description="%com.adobe.training.core.impl.DeveloperInfoImpl.description">
+        <AD id="show.info" type="Boolean" default="false" name="%com.adobe.training.core.impl.DeveloperInfoImpl.show.info.name" description="%com.adobe.training.core.impl.DeveloperInfoImpl.show.info.description"/>
+        <AD id="name" type="String" name="%com.adobe.training.core.impl.DeveloperInfoImpl.name.name" description="%com.adobe.training.core.impl.DeveloperInfoImpl.name.description"/>
+        <AD id="hobbies" type="String" name="%com.adobe.training.core.impl.DeveloperInfoImpl.hobbies.name" description="%com.adobe.training.core.impl.DeveloperInfoImpl.hobbies.description" cardinality="2147483647"/>
+        <AD id="language.preference" type="String" name="%com.adobe.training.core.impl.DeveloperInfoImpl.language.preference.name" description="%com.adobe.training.core.impl.DeveloperInfoImpl.language.preference.description">
+            <Option value="HTL" label="HTL"/>
+            <Option value="Java" label="Java"/>
+            <Option value="JSP" label="JSP"/>
+            <Option value="HTML" label="HTML"/>
+            <Option value="JavaScript" label="JavaScript"/>
+        </AD>
+    </OCD>
+    <Designate pid="com.adobe.training.core.impl.DeveloperInfoImpl">
+        <Object ocdref="com.adobe.training.core.impl.DeveloperInfoImpl"/>
+    </Designate>
+</metatype:MetaData>

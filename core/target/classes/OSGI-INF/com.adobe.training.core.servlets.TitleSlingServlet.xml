@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.adobe.training.core.servlets.TitleSlingServlet">
+        <implementation class="com.adobe.training.core.servlets.TitleSlingServlet"/>
+        <service servicefactory="false">
+            <provide interface="javax.servlet.Servlet"/>
+        </service>
+        <property name="sling.servlet.resourceTypes">
+            /apps/trainingproject/components/content/title
+        </property>
+        <property name="sling.servlet.extensions">
+            html
+        </property>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.training.core.servlets.TitleSlingServlet"/>
+    </scr:component>
+</components>

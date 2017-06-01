@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component name="com.adobe.training.core.impl.DeveloperInfoImpl" activate="activate" deactivate="deactivated" modified="modified">
+        <implementation class="com.adobe.training.core.impl.DeveloperInfoImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.adobe.training.core.DeveloperInfo"/>
+        </service>
+        <property name="show.info" type="Boolean" value="false"/>
+        <property name="name"/>
+        <property name="hobbies"/>
+        <property name="language.preference"/>
+        <property name="service.vendor" value="Adobe"/>
+        <property name="service.pid" value="com.adobe.training.core.impl.DeveloperInfoImpl"/>
+    </scr:component>
+</components>
