@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.adobe.training.core.schedulers.CleanupScheduledTask">
-    <OCD id="com.adobe.training.core.schedulers.CleanupScheduledTask" name="%com.adobe.training.core.schedulers.CleanupScheduledTask.name" description="%com.adobe.training.core.schedulers.CleanupScheduledTask.description">
-        <AD id="scheduler.expression" type="String" default="*/20\ *\ *\ *\ *\ ?" name="%com.adobe.training.core.schedulers.CleanupScheduledTask.scheduler.expression.name" description="%com.adobe.training.core.schedulers.CleanupScheduledTask.scheduler.expression.description"/>
-        <AD id="cleanupPath" type="String" default="/mypathtraining" name="%com.adobe.training.core.schedulers.CleanupScheduledTask.cleanupPath.name" description="%com.adobe.training.core.schedulers.CleanupScheduledTask.cleanupPath.description"/>
-    </OCD>
-    <Designate pid="com.adobe.training.core.schedulers.CleanupScheduledTask">
-        <Object ocdref="com.adobe.training.core.schedulers.CleanupScheduledTask"/>
-    </Designate>
-</metatype:MetaData>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
-    <scr:component enabled="true" name="com.adobe.training.core.ModifyPermissions" activate="activate">
-        <implementation class="com.adobe.training.core.ModifyPermissions"/>
-        <property name="service.vendor" value="Adobe"/>
-        <property name="service.pid" value="com.adobe.training.core.ModifyPermissions"/>
-        <reference name="repo" interface="org.apache.sling.jcr.api.SlingRepository" cardinality="1..1" policy="static" bind="bindRepo" unbind="unbindRepo"/>
-    </scr:component>
-</components>
